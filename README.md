@@ -2,7 +2,7 @@
 
 
 pip install django-dbbackup
-INSTALLED_APPS = (
+# INSTALLED_APPS = (
     ...
     'dbbackup',  # django-dbbackup
 )
