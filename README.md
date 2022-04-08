@@ -2,14 +2,20 @@
 
 
 pip install django-dbbackup
+
 INSTALLED_APPS = (
     ...
     'dbbackup',  # django-dbbackup
 )
+
 DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
+
 DBBACKUP_STORAGE_OPTIONS = {'location': BASE_DIR / 'backup'}
+
 Open Directory buckup
+
 python manage.py dbbackup
+
 python3 manage.py dbrestore
 
 _________________________________________________________________________________________________________________________________________________________
