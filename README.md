@@ -1,23 +1,18 @@
 # DJANGO_CRON_TABBLE_REZERV_DB
 
 
- pip install django-dbbackup
-
- INSTALLED_APPS = (
+pip install django-dbbackup
+INSTALLED_APPS = (
     ...
     'dbbackup',  # django-dbbackup
 )
-
 DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
 DBBACKUP_STORAGE_OPTIONS = {'location': BASE_DIR / 'backup'}
-
 Open Directory buckup
-
 python manage.py dbbackup
-
 python3 manage.py dbrestore
 
-_______________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________
 
 pip install django-crontab
 
@@ -48,4 +43,4 @@ python manage.py crontab show
 
 python manage.py crontab remove
 
-_____________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________
