@@ -1,9 +1,9 @@
 # DJANGO_CRON_TABBLE_REZERV_DB
 
 
-pip install django-dbbackup
+ pip install django-dbbackup
 
-INSTALLED_APPS = (
+ INSTALLED_APPS = (
     ...
     'dbbackup',  # django-dbbackup
 )
