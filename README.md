@@ -3,7 +3,7 @@
 
 pip install django-dbbackup
 # INSTALLED_APPS = (
-    ...
+#    ...
 #    'dbbackup',  # django-dbbackup
 #)
 DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
